@@ -1,7 +1,8 @@
 h1, h3 {
-	color:yellow;
-	background-color:black;
+	color:black;
 	font-family: Arial, sans-serif;
+	font-weight: normal;
+	text-decoration: underline;
 
 }
 
@@ -11,4 +12,9 @@ h3 {
 
 p {
 	font-family: "Courier New" , monospace;
+}
+
+a{
+	font-style: italic;
+	text-decoration: none;
 }
