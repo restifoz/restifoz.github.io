@@ -11,12 +11,24 @@ h1, h3 {
 
 }
 
+h1{
+	font-weight: bold;
+}
+
+#second{
+	font-weight: bold;
+}
+
 h3 {
 	font-size: 24px;
 }
 
 p {
 	font-family: "Courier New" , monospace;
+}
+
+.important{
+	font-size: 10px;
 }
 
 a{
