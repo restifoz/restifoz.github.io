@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Palanquin');
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+html {
+	background-color: black;
+}
+
+nav {
+	background-color: #000000;
+	font-family: 'Palanquin', sans-serif;
+}
+
+nav a {
+	background-color: #000000;
+	font-family: 'Palanquin', sans-serif;
+	color: white;
+	text-decoration: none;
+	display: block;
+	float: left;
+	padding: 20px;
+	width: 200px;
+}
+
+nav a:hover {
+	background-color: #222222;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  content: " ";
+  clear: both;
+  height: 0;
+  font-size: 0;
+}
+
+header {
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.column {
+	float: left;
+	width: 550px;
+	height: 300px;
+	padding: 20px;
+	margin: 0;
+}
+
+#about {
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+#services {
+	background-color: #E89C6C;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+footer {
+	background-color: #FF957E;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+body{
+	text-align: center;
+}
+
+h1{
+	color: #FFFFFF;
+	font-family: 'Palanquin', sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+h2{
+	color: #FFFFFF;
+	font-family: 'Palanquin', sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+p{
+	color: #FFFFFF;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+}
+
+ul{
+    color: #FFFFFF;
+    font-family: 'Palanquin', sans-serif;
+    font-size: 18px;
+}
+
+#slogan{
+	font-style: italic;
+}
